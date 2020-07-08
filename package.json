@@ -5,8 +5,10 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
